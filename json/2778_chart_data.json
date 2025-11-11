@@ -1,0 +1,335 @@
+{
+  "data": [
+    {
+      "meta": {
+        "columnNames": {
+          "x": "School-year ending June 30th",
+          "y": "White"
+        }
+      },
+      "mode": "lines",
+      "name": "White",
+      "type": "bar",
+      "xsrc": "TruckeeMeadowsTomorrow:3852:298b71",
+      "x": [
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "ysrc": "TruckeeMeadowsTomorrow:3852:511c6d",
+      "y": [
+        "45.23%",
+        "44.76%",
+        "44.38%",
+        "43.76%",
+        "43.46%",
+        "42.49%",
+        "42.29%",
+        "41.66%",
+        "40.88%",
+        "39.99%"
+      ],
+      "yaxis": "y2",
+      "orientation": "v"
+    },
+    {
+      "meta": {
+        "columnNames": {
+          "x": "School-year ending June 30th",
+          "y": "Black/African American"
+        }
+      },
+      "mode": "lines",
+      "name": "Black/<br>African American",
+      "type": "bar",
+      "xsrc": "TruckeeMeadowsTomorrow:3852:298b71",
+      "x": [
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "ysrc": "TruckeeMeadowsTomorrow:3852:8b4023",
+      "y": [
+        "2.26%",
+        "2.35%",
+        "2.36%",
+        "2.45%",
+        "2.51%",
+        "2.56%",
+        "2.64%",
+        "2.72%",
+        "2.71%",
+        "2.72%"
+      ],
+      "yaxis": "y2",
+      "stackgroup": null,
+      "orientation": "v"
+    },
+    {
+      "meta": {
+        "columnNames": {
+          "x": "School-year ending June 30th",
+          "y": "American Indian/Alaska Native"
+        }
+      },
+      "mode": "lines",
+      "name": "American Indian/<br>Alaska Native",
+      "type": "bar",
+      "xsrc": "TruckeeMeadowsTomorrow:3852:298b71",
+      "x": [
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "ysrc": "TruckeeMeadowsTomorrow:3852:d16b01",
+      "y": [
+        "1.53%",
+        "1.45%",
+        "1.33%",
+        "1.31%",
+        "1.23%",
+        "1.23%",
+        "1.19%",
+        "1.15%",
+        "1.07%",
+        "1.03%"
+      ],
+      "yaxis": "y2",
+      "marker": {
+        "color": "rgb(16, 99, 16)"
+      },
+      "stackgroup": null,
+      "orientation": "v"
+    },
+    {
+      "meta": {
+        "columnNames": {
+          "x": "School-year ending June 30th",
+          "y": "Pacific Islander"
+        }
+      },
+      "mode": "lines",
+      "name": "Pacific Islander",
+      "type": "bar",
+      "xsrc": "TruckeeMeadowsTomorrow:3852:298b71",
+      "x": [
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "ysrc": "TruckeeMeadowsTomorrow:3852:29e8b5",
+      "y": [
+        "1.14%",
+        "1.13%",
+        "1.20%",
+        "1.29%",
+        "1.31%",
+        "1.37%",
+        "1.41%",
+        "1.46%",
+        "1.54%",
+        "1.58%"
+      ],
+      "yaxis": "y2",
+      "stackgroup": null,
+      "orientation": "v"
+    },
+    {
+      "meta": {
+        "columnNames": {
+          "x": "School-year ending June 30th",
+          "y": "Asian"
+        }
+      },
+      "name": "Asian",
+      "type": "bar",
+      "xsrc": "TruckeeMeadowsTomorrow:3852:298b71",
+      "x": [
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "ysrc": "TruckeeMeadowsTomorrow:3852:955ff7",
+      "y": [
+        "4.38%",
+        "4.40%",
+        "4.36%",
+        "4.35%",
+        "4.39%",
+        "4.49%",
+        "4.40%",
+        "4.32%",
+        "4.39%",
+        "4.30%"
+      ],
+      "yaxis": "y2",
+      "orientation": "v"
+    },
+    {
+      "meta": {
+        "columnNames": {
+          "x": "School-year ending June 30th",
+          "y": "Hispanic"
+        }
+      },
+      "mode": "lines",
+      "name": "Hispanic",
+      "type": "bar",
+      "xsrc": "TruckeeMeadowsTomorrow:3852:298b71",
+      "x": [
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "ysrc": "TruckeeMeadowsTomorrow:3852:670d9a",
+      "y": [
+        "39.72%",
+        "40.09%",
+        "40.43%",
+        "40.79%",
+        "40.90%",
+        "41.64%",
+        "41.79%",
+        "42.34%",
+        "43.03%",
+        "43.99%"
+      ],
+      "yaxis": "y2",
+      "marker": {
+        "color": "rgb(197, 222, 119)"
+      },
+      "stackgroup": null,
+      "orientation": "v"
+    },
+    {
+      "meta": {
+        "columnNames": {
+          "x": "School-year ending June 30th",
+          "y": "Two or more races"
+        }
+      },
+      "mode": "lines",
+      "name": "Two or more races",
+      "type": "bar",
+      "xsrc": "TruckeeMeadowsTomorrow:3852:298b71",
+      "x": [
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "ysrc": "TruckeeMeadowsTomorrow:3852:6f269a",
+      "y": [
+        "5.75%",
+        "5.83%",
+        "5.94%",
+        "6.06%",
+        "6.19%",
+        "6.21%",
+        "6.29%",
+        "6.35%",
+        "6.39%",
+        "6.40%"
+      ],
+      "yaxis": "y2",
+      "stackgroup": null,
+      "orientation": "v"
+    }
+  ],
+  "frames": [],
+  "layout": {
+    "title": {
+      "font": {
+        "size": 14,
+        "color": "rgb(68, 68, 68)"
+      },
+      "text": "<b>Washoe County School District population demographics</b><br><b>Source: </b>&nbsp;Nevada Department of Education, <a href=\"http://nevadareportcard.nv.gov/di/\">Nevada Accountability Portal</a>"
+    },
+    "width": 911,
+    "xaxis": {
+      "type": "linear",
+      "range": [
+        2015.5,
+        2025.5
+      ],
+      "title": {
+        "text": "School-year ending June 30th (includes sponsored charter schools)"
+      },
+      "autorange": true
+    },
+    "height": 606,
+    "legend": {
+      "x": 0.043529762629847916,
+      "y": 0.24295774647887325,
+      "font": {
+        "size": 11
+      },
+      "valign": "top",
+      "traceorder": "normal",
+      "orientation": "h"
+    },
+    "yaxis2": {
+      "side": "left",
+      "type": "linear",
+      "range": [
+        0,
+        100
+      ],
+      "title": {
+        "text": "Race/ethnicity percentage<br>"
+      },
+      "autorange": false
+    },
+    "barmode": "stack",
+    "autosize": true,
+    "showlegend": true
+  }
+}
