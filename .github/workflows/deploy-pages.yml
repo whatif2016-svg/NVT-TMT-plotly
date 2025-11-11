@@ -1,0 +1,62 @@
+name: Deploy Charts to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install uv (Python package manager)
+        run: |
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          echo "$HOME/.cargo/bin" >> $GITHUB_PATH
+
+      - name: Convert JSON files to HTML
+        run: |
+          if [ -d "json" ] && [ -n "$(find json -name '*.json' -type f 2>/dev/null)" ]; then
+            chmod +x convert_json_to_html.py
+            uv run convert_json_to_html.py
+          else
+            echo "No JSON files found in json/ directory, skipping conversion"
+          fi
+
+      - name: Disable Chart Studio showLink
+        run: |
+          chmod +x .github/scripts/disable-showlink.sh
+          .github/scripts/disable-showlink.sh
+
+      - name: Generate index page
+        run: |
+          chmod +x .github/scripts/generate-index.sh
+          .github/scripts/generate-index.sh
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'charts'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

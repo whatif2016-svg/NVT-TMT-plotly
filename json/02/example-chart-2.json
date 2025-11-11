@@ -1,0 +1,86 @@
+{
+  "data": [
+    {
+      "meta": {
+        "columnNames": {
+          "labels": "A",
+          "values": "D"
+        }
+      },
+      "mode": "markers",
+      "type": "pie",
+      "labelssrc": "kiwisky:10:e2d9e3",
+      "labels": [
+        "Club",
+        "Real Madrid CF",
+        "FC  Bayern M\u00fcnchen",
+        "FC Barcelona",
+        "Manchester  United",
+        "Juventus",
+        "Liverpool  FC",
+        "AC Milan",
+        "SL  Benfica",
+        "FC Porto",
+        "AFC Ajax",
+        "Chelsea FC",
+        "FC  Internazionale Milano",
+        "Nottingham Forest FC"
+      ],
+      "valuessrc": "kiwisky:10:38e1a2",
+      "values": [
+        "Titles",
+        "14",
+        "6",
+        "5",
+        "3",
+        "2",
+        "6",
+        "7",
+        "2",
+        "2",
+        "4",
+        "2",
+        "3",
+        "2"
+      ]
+    }
+  ],
+  "frames": [],
+  "layout": {
+    "title": {
+      "x": 0.05,
+      "font": {
+        "size": 35,
+        "family": "Droid Sans"
+      },
+      "text": "<b>Vyhran\u00e9 tituly (klub)</b>"
+    },
+    "xaxis": {
+      "range": [
+        -1,
+        6
+      ],
+      "autorange": true
+    },
+    "yaxis": {
+      "range": [
+        -1,
+        4
+      ],
+      "autorange": true
+    },
+    "legend": {
+      "x": 0.9199999999999999,
+      "y": 1,
+      "font": {
+        "size": 25
+      },
+      "borderwidth": 3
+    },
+    "margin": {
+      "l": 50
+    },
+    "autosize": true,
+    "paper_bgcolor": "rgb(227, 227, 227)"
+  }
+}
